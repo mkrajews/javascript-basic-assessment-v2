@@ -72,13 +72,14 @@ var jedi = ['Yoda', 'Mace Windu', 'Obi-Wan'];
 // add 'Luke' to the end
 jedi.push('Luke');
 // remove 'Yoda' and store him in a var called firstJedi
-var firstJedi = jedi[0].slice();
+var firstJedi = jedi.shift();
 // // add 'Mario' to the start of the array
 jedi.unshift('Mario');
 // // remove 'Obi-Wan' from the array and store him in a var called secondJedi
-var secondJedi = jedi[2].slice();
+// var secondJedi= jedi[3].slice();
+// push()
 // // leave 'Mace Windu' in the array but put a copy of him on a var called thirdJedi
-var thirdJedi = jedi[2];
+var thirdJedi = jedi[1];
 
 
 
